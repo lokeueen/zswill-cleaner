@@ -1,6 +1,6 @@
 # 🧹 zswill-cleaner
 
-> ⚠️ **The website is a mess, I know.** I tried my best, but let's be real — it's not great. It's just a raw HTML page I threw together in 10 minutes. Just ignore the "download" section, it doesn't matter. The real deal is right here on GitHub. 😅
+> ⚠️ **The website is a mess, I know.** I really tried my best and I hope you like it, but let's be real — it's not great. It's an HTML page that I put together in 3 days. Just ignore the "download" section, it doesn't matter. The real deal is right here on GitHub. I put a lot of effort into the program itself, and I genuinely hope it helps you out. Updates will come if the project actually shows itself — so show some love if you want to see more. 😅
 
 **zswill-cleaner** is a lightweight Windows utility that helps you clean up temporary files and system junk to free up disk space. No bloat, no spyware, no weird background processes — just a simple `.exe` that gets the job done. Nothing fancy, nothing hidden. 🚀
 
@@ -26,11 +26,37 @@ zswill-cleaner.exe
 
 > 💡 Pro tip: run it once a month to keep your PC fresh. Set a reminder on your phone. Not joking.
 
+## 🛡️ Antivirus false positive
+
+Some antivirus programs might flag this executable as suspicious. That's a false positive — it happens with many small utilities that aren't signed with a digital certificate (which costs money I don't have). 💸
+
+If your AV blocks it:
+1. **Disable your antivirus temporarily** (or add an exception for the file)
+2. Run the cleaner
+3. Re-enable your antivirus after
+
+**VirusTotal scan:** https://www.virustotal.com/gui/file/376402292e664c1a7f52ad074c4628abd899851c877aba6ba04ae2218ca4e56f?nocache=1
+
+Check the link above — most engines report it clean. The ones that don't are just being paranoid because the .exe isn't signed. I promise there's nothing malicious. I built this to help people, not to be evil. 🤷
+
 ## 📋 Requirements
 
 - 💻 Windows 7 or later (works best on Windows 10/11)
 - 🔑 Administrator privileges (required for cleaning system directories)
 - 🧠 A desire for a cleaner PC (you're already here, so I assume you have one)
+
+## 🗺️ Roadmap & updates
+
+I have plans for this tool, but I'm not gonna lie — whether updates actually happen depends on the reception. If people download it, use it, leave stars, open issues, and show that it matters, I'll keep improving it. 📈
+
+Potential future updates:
+- 🧹 More cleanup categories (browser caches, Discord cache, etc.)
+- 🌙 Dark mode for the CLI
+- 📊 Disk space analysis before/after cleaning
+- ⚙️ Configurable cleanup profiles
+- 🖥️ GUI version (maybe)
+
+No promises though. The project needs to prove itself first. So if you want updates — engage. ⭐
 
 ## ❓ Why does this exist?
 
