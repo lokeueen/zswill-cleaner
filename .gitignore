@@ -1,0 +1,30 @@
+# Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Build artifacts (except main executable)
+*.dll
+*.pdb
+*.obj
+*.lib
+*.exp
+*.ilk
+
+# VS Code
+.vscode/
+
+# VS
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+Debug/
+Release/
+x64/
+x86/
+
+# Temp files
+*.tmp
+*.log
+*.bak
