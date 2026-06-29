@@ -1,18 +1,18 @@
 # zswill-cleaner
 
-Утилита для очистки системы Windows от временных файлов и мусора.
+Windows system cleaner utility — removes temporary files and system junk.
 
-## Возможности
+## Features
 
-- Очистка временных файлов
-- Удаление системного мусора
-- Освобождение места на диске
+- Temporary files cleanup
+- System junk removal
+- Free up disk space
 
-## Использование
+## Usage
 
-Запустите `zswill-cleaner.exe` от имени администратора.
+Run `zswill-cleaner.exe` as Administrator.
 
-## Требования
+## Requirements
 
-- Windows 7 и выше
-- Права администратора
+- Windows 7 or later
+- Administrator privileges
