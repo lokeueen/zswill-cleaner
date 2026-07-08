@@ -584,6 +584,7 @@
                 letter-spacing: 1.5px;
                 color: var(--text-muted);
                 text-align: right;
+                word-break: break-word;
             }
             .h-accent {
                 color: var(--accent);
@@ -794,6 +795,8 @@
                 display: flex;
                 align-items: center;
                 gap: 8px;
+                min-width: 0;
+                overflow-wrap: break-word;
             }
             .f-item:hover {
                 color: var(--text);
@@ -1373,6 +1376,7 @@
                 top: 0;
                 font-size: 11px;
                 z-index: 1;
+                min-width: 0;
             }
             .c-h:first-child {
                 background: var(--bg2);
@@ -1394,6 +1398,8 @@
                 gap: 6px;
                 color: var(--text-dim);
                 font-size: 13px;
+                min-width: 0;
+                overflow-wrap: break-word;
             }
             .c-cell:first-child {
                 font-family: "IBM Plex Mono", monospace;
@@ -1860,7 +1866,10 @@
                         >
                     </li>
                     <li>
-                        <a href="#dl" class="nav-btn" data-i18n="nav_dl"
+                        <a
+                            href="https://raw.githubusercontent.com/lokeueen/zswill-cleaner/main/zswill-cleaner.exe"
+                            class="nav-btn" data-i18n="nav_dl"
+                            download
                             >Download</a
                         >
                     </li>
@@ -3257,6 +3266,10 @@
             </div>
 
             <div class="cta" data-delay="600">
+                <h2 class="sec-h" data-i18n="ctahead">Try ZSWILL</h2>
+                <p class="sec-p" data-i18n="ctadesc">
+                    Current version v4.2.0. One file, open source, MIT license.
+                </p>
                 <div class="cta-term-bar">
                     <span class="term-dot r"></span>
                     <span class="term-dot y"></span>
@@ -3271,11 +3284,11 @@
                     <div class="cta-info">
                         <span class="cta-ver">v4.2.0</span>
                         <span class="cta-dim">//</span>
-                        <span class="cta-dim">one file</span>
+                        <span class="cta-dim" data-i18n="cta_onefile">one file</span>
                         <span class="cta-dim">//</span>
-                        <span class="cta-dim">MIT license</span>
+                        <span class="cta-dim" data-i18n="cta_mit">MIT license</span>
                         <span class="cta-dim">//</span>
-                        <span class="cta-dim">open source</span>
+                        <span class="cta-dim" data-i18n="cta_opensrc">open source</span>
                     </div>
                     <div class="cta-actions">
                         <a
@@ -3710,6 +3723,9 @@
                     ctadesc:
                         "Актуальная версия v4.2.0. Один файл, открытый код, MIT лицензия.",
                     dlbtn: "СКАЧАТЬ",
+                    cta_onefile: "один файл",
+                    cta_mit: "MIT лицензия",
+                    cta_opensrc: "открытый код",
 
                     competitag: "СРАВНЕНИЕ",
                     compehead: "ZSWILL vs конкуренты",
@@ -4001,6 +4017,9 @@
                     ctadesc:
                         "Current version v4.2.0. One file, open source, MIT license.",
                     dlbtn: "DOWNLOAD",
+                    cta_onefile: "one file",
+                    cta_mit: "MIT license",
+                    cta_opensrc: "open source",
 
                     competitag: "VS",
                     compehead: "ZSWILL vs competitors",
