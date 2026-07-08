@@ -862,6 +862,8 @@
             }
 
             .cta {
+                opacity: 1 !important;
+                transform: translateY(0) !important;
                 border: 2px solid var(--accent);
                 padding: 36px 36px;
                 margin: 40px 0;
@@ -1279,7 +1281,6 @@
             .b-card.vis,
             .f-item.vis,
             .faq-d.vis,
-            .cta.vis,
             .about-box.vis,
             .footer.vis,
             .chlog-item.vis {
@@ -2007,7 +2008,7 @@
                                 download
                                 >DOWNLOAD</a
                             >
-                            <a href="#dl" class="btn btn-irm">IRM / iex</a>
+                            <a href="javascript:void(0)" class="btn btn-irm" onclick="document.getElementById('dl').scrollIntoView({behavior:'smooth',block:'start'})">IRM / iex</a>
                             <a
                                 href="https://github.com/lokeueen/zswill-cleaner"
                                 class="btn btn-s"
